@@ -1,97 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <title>Bootstrap 5 Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Q1 Drill 1</title>
-  <style>
-    body {
-      background-image: url(wallpaper3.jpg);
-      background-size: cover;
-      color: #333;
-      margin: 30px;
-      padding: 30px;
-      align-items: center;
-    }
-
-    h1 {
-      letter-spacing: -2px;
-      background-color: antiquewhite;
-    }
-
-    img {
-      width: 250px;
-      height: 290px;
-      float: left;
-      margin-right: 15px;
-    }
-
-    ul.c {
-      list-style-type: square;
-      text-decoration: underline;
-      color: palevioletred;
-    }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
+<style>
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('HelvNuPro.otf') format('opentype');
+}
+
+  @font-face {
+     font-family: Times New Roman;
+     src: url("TNRCondensed.otf") format('opentype');
+}
+
+  body {
+    font-family: 'Helvetica';
+     letter-spacing: -1px;
+}
+  h1 {
+    font-family: 'Times New Roman';
+    letter-spacing: -1px;
+    font-size: 70px
+}
+  .col-sm-4 {
+    border: 4px solid #211C1C;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f6f3e0;
+  }
+
+  body {
+  background-image: url('bg.jpg');
+  }
+
+.custom-header {
+  background-color: #211C1C;
+}
+</style>
+
 <body>
+
+<div class="container-fluid mt-5 pb-2 pt-2 custom-header text-white text-center">
+  <h1>Q2 Drill 1</h1>
+  <p> ˖ ᡣ𐭩 ⊹ ࣪  ౨ৎ˚₊ </p>
+  <p>All About Me: A responsive page! </p> 
+</div>
   
-
-<h1> ⊹౨ৎ˚₊   My Slambook: Drill #1 </h1>
-
-<p style="font-size:150%";> <img src=photo1.png> A slam book is a notebook or journal passed around among friends or classmates where everyone writes personal information, answers fun questions, and shares thoughts or messages. It usually includes questions like name, birthday, favorites, dreams, and messages to the owner. Popular in schools, slam books are a fun way to learn more about each other and keep memories. </p>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<h1> ౨ৎ About Me </h1>
-
-<ol  style="font-size:150%";>
-			<li>Name: Kyrene </li>
-			<li>Nickname: Ky </li>
-			<li>Grade/Section: 9-Emerald </li>
-			<li>Zodiac Sign: Capricorn </li>
-			<li>Birthday: January 5, 2011 </li>
-			<li>Describe yourself in one word: Introverted </li>
-			<li>Motto in life: "Don't wait for the tide just to dip both your feet in" </li>
-</ol>
-
-<br>
-
-<h1> ౨ৎ Favorites </h1>
-
-<ul  style="font-size:150%";>
-			<li>Favorite color: Red/Pink </li>
-			<li>Favorite food: Milktea </li>
-			<li>Favorite subject: Math/Arts </li>
-			<li>Favorite movie or TV show: Friends </li>
-			<li>Favorite sport or activity: Volleyball </li>
-			<li>Favorite place to hang out: School </li>
-			<li>Favorite song: Ripples by beabadoobee </li>
-			<li>Favorite/top artists: </li>
-			        	<dd>- beabadoobee</dd>
-			        	<dd>- Tyler, The Creator</dd>
-			        	<dd>- TWICE</dd>
-			        	<dd>- Laufey</dd>
-			        	<dd>- Arctic Monkeys</dd>
-			        	<dd>- Up Dharma Down</dd>
-</ul>
-
-<br>
-
-<h1> ౨ৎ Social Media Links </h1>
-
-	<ul class="c">  
-	<li> <a href="https://open.spotify.com/user/htoghaniysawqsm5i0tgf8kli?si=7d1c883327074754" arget="_blank" style="font-size:150%";> Spotify </a> </li>
-</ul>
-
-
+<div class="container mt-5">
+  <div class="row g-4">
+    <div class="col-sm-4">
+      <h3>Favorite Artists</h3>
+      <p> ⊹ Beabadoobee </p>
+      <p> ⊹ TWICE </p>
+      <p> ⊹ Imago </p>
+      <p> ⊹ Kitchie Nadal </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Favorite Shows/Movies</h3>
+      <p> ⊹ Friends </p>
+      <p> ⊹ Neon Genesis Evangelion </p>
+      <p> ⊹ Arcane </p>
+      <p> ⊹ Attack on Titan </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Favorite Songs</h3>        
+      <p> ⊹ Ripples - Beabadoobee </p>
+      <p> ⊹ 14 - Silent Sanctuary </p>
+      <p> ⊹ Cornerstone - Arctic Monkeys </p>
+      <p> ⊹ You Owe Me - Malcolm Todd </p>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
+
